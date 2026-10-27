@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "c:\\gcc-14.1.0-no-debug\\bin\\gcc.exe",
+    "files.associations": {
+        "sans.h": "c"
+    }
+}
