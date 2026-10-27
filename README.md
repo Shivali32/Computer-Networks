@@ -4,31 +4,27 @@ This repository contains seven C programming projects from the Fall 2024 Compute
 
 ## Projects
 
-- **[Project 1: HTTP Client](projects/01-http-client/)**  
+- **[Project 1: HTTP Client](01-http-client/)**  
   Build an HTTP/1.1 request from a method and path, send it through the SANS interface, and print the server's response.
 
-- **[Project 2: HTTP Server](projects/02-http-server/)**  
+- **[Project 2: HTTP Server](02-http-server/)**  
   Accept a request, read the requested file, and return its contents with HTTP response headers in chunks of up to 1,024 bytes.
 
-- **[Project 3: SMTP Agent](projects/03-smtp-agent/)**  
+- **[Project 3: SMTP Agent](03-smtp-agent/)**  
   Follow the SMTP command exchange to send a text-file message body, using one email address for the sender and recipient.
 
-- **[Project 4: Sockets and DNS](projects/04-sockets-and-dns/)**  
+- **[Project 4: Sockets and DNS](04-sockets-and-dns/)**  
   Resolve hostnames and manage TCP connections using `getaddrinfo`, `socket`, `connect`, `bind`, `listen`, `accept`, and `close`.
 
-- **[Project 5: RUDP Handshake](projects/05-rudp-handshake/)**  
+- **[Project 5: RUDP Handshake](05-rudp-handshake/)**  
   Establish a connection over UDP through a three-way handshake, keep the peer's address, and send and receive datagrams.
 
-- **[Project 6: Stop and Wait](projects/06-stop-and-wait/)**  
+- **[Project 6: Stop and Wait](06-stop-and-wait/)**  
   Track packet sequence numbers, wait for acknowledgements, and retransmit packets when a timeout or an incorrect acknowledgement occurs.
 
-- **[Project 7: Driver and Go-Back-N](projects/07-go-back-n/)**  
+- **[Project 7: Driver and Go-Back-N](07-go-back-n/)**  
   Queue packets in a ring buffer and use a background worker to transmit the send window, handle acknowledgements, and retry pending packets.
 
-## Files and Course Material
+## Project Files
 
-All seven projects are grouped under [projects](projects/). Each project folder includes its numbered source files, a course test file, an `assignment.md` with the detailed requirements, and a README explaining the work and relevant files.
-
-The [miscellaneous folder](miscellaneous/) holds the original course framework, complete wiki, ZIP archive, and extra copies for later review. The framework includes the SANS API, command-line driver, SCons build scripts, helper library, and common test utilities. SANS stands for Scholastic Applied Network Sandbox and provides the interface used by the application projects before the later assignments introduce socket and transport implementations.
-
-The project descriptions follow the supplied course assignments. Course-provided framework files retain their [original license](miscellaneous/shimate-main/LICENSE).
+Each project folder contains its numbered source files, course tests, assignment requirements, and a README explaining the project and its files.
