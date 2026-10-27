@@ -1,0 +1,11 @@
+.build/
+.sconsign.dblite
+*.o
+sans
+sans-tests
+test.stdout
+test.stderr
+.test.html
+.test.smtp
+__pycache__/
+.vscode/
